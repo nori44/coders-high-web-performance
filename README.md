@@ -21,19 +21,20 @@ coders-high-web-performance/
 └── fonts
 ```
 ## インストール
-`$ cd fast`
+`$ cd fast`  
 **fast** ディレクトリに移動します。
-`$ npm install`
+
+`$ npm install`  
 パッケージをインストールします。
 
 ## 実行
-`$ npm run watch:all`
+`$ npm run watch:all`  
 以下を実行してくれます。
 - src/img ディレクトリに入れた画像を、dist/img へ圧縮とWebP変換したかたちで出力してくれます
 - src/scss ディレクトリから、dist/css ディレクトリへトランスパイル
 - src/js のJSファイルを、dist/js へ圧縮して出力
 
 ## ファイルとディレクトリ構成の補足
-**imagemin.mjs** 圧縮の設定ファイルです。
-**convertToWebp.ts** WebP変換用の設定ファイルです。
-**fonts/** サブセット前のNoto Sans JPファイルとサブセット化後のファイル、原稿テキストが入っています。
+- **imagemin.mjs** 圧縮の設定ファイルです。
+- **convertToWebp.ts** WebP変換用の設定ファイルです。
+- **fonts/** サブセット前のNoto Sans JPファイルとサブセット化後のファイル、原稿テキストが入っています。
