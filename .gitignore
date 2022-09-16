@@ -1,0 +1,22 @@
+# Common
+node_modules
+build
+dist
+.sass-cache
+*.swp
+*.db
+._*
+
+# Mac
+.Spotlight-V100
+.DS_Store
+.Trashes
+
+# Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.stackdump
+*.lnk
